@@ -1,5 +1,7 @@
 # FAKE dotnet local tool bug
 
+Companion repo to https://github.com/fsprojects/FAKE/issues/2735.
+
 I'm seeing different behaviour when running a dotnet local tool ([grate](https://erikbra.github.io/grate/)) via FAKE than when running it directly. In particular, it fails when run via FAKE, but works without error when run directly from the command line.
 
 ## Prerequisites
