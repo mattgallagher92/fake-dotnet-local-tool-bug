@@ -18,7 +18,7 @@ dotnet tool restore
 dotnet run
 ```
 
-You should see the following command printed in the FAKE lo gs:
+You should see the following command printed in the FAKE logs:
 
 ``` sh
 /home/matt/dev/fake-dotnet-local-tool-bug/src/db> "/usr/bin/dotnet" grate --noninteractive --databasetype postgresql --connectionstring 'Host=localhost;Database=my_database;Username=postgres;Password=aVeryStrongPassword!' --adminconnectionstring 'Host=localhost;Database=postgres;Username=postgres;Password=aVeryStrongPassword!' (In: false, Out: false, Err: false)
