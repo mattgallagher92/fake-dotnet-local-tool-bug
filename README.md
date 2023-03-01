@@ -6,7 +6,7 @@ I'm seeing different behaviour when running a dotnet local tool ([grate](https:/
 
 ## Prerequisites
 
-- .NET 6 SDK (for running FAKE)
+- .NET 6 SDK (for running the build project, which delegates to FAKE)
 - Docker (for starting a container running a PostgreSQL database cluster that grate can work against)
 
 ## Repro steps
